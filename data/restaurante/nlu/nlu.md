@@ -1,0 +1,283 @@
+## intent:greet
+- Hola
+- che
+- Hola bot
+- Hello bot
+- Hola
+- Buenos días
+- Hola de nuevo
+- Hola amigos
+- Hola señor
+- Hola amigo!
+- Hola
+- saludos
+- Hola todos
+- Hola hay alguien ahí
+- hola robot
+- hola
+- Heeey
+- hola hola
+- Che
+- hey hey
+- Hola
+- ¿Hola?
+- ¡Hello bot!
+- Hola amigo
+
+## intent:request_restaurant
+- Estoy buscando un restaurante
+- ¿Hay comida [sueca](cocina) para probar?
+- un restaurante que sirve comida [caribeña](cocina)
+- quiero un restaurante
+- Estoy buscando un restaurante que ofrezca comida [mediterránea](cocina)
+- ¿Hay algun restaurante que ofrezca comida [china](cocina)?
+- Estoy buscando un lugar que sirva comida de [indonesia](cocina) para [tres](nro_personas:3)
+- necesito encontrar un restaurante
+- uh estoy buscando un restaurante que sirva comida [kosher](cocina)
+- uh puedo encontrar un restaurante que sirva comida [brasileña](cocina)
+- Estoy buscando un restaurante que sirva comida [italiana](cocina)
+- un restaurante por favor
+- Me gustaría reservar una mesa para [dos](nro_personas:2) con comida [española](cocina)
+- Necesito una mesa para [4](nro_personas)
+- Quiero reservar una mesa [tres](nro_personas:3) con comida [italiana](cocina)
+- ¿Puedes reservar una mesa para [5](nro_personas)?
+- Me gustaría reservar una mesa para [2](nro_personas)
+- buscando una mesa con comida [cocina mexicana] para [cinco](nro_personas:5)
+- ¿Puedo reservar una mesa para [cuatro](nro_personas:4) en el lugar donde sirve comida [griega](cocina)?
+
+## intent:affirm
+- Sí, un restaurante barato que sirva comida internacional.
+- Si, un restaurante economico que sirva comida internacional.
+- correcto
+- S.M
+- uh si
+- dale
+- si
+- uh si
+- um si
+- si llamando
+- eso es correcto
+- sí Sí
+- ok
+- si
+- si
+- si claro
+- si y no me importa
+- me encanta eso
+
+## intent:deny
+- no
+- no hay nueva selección
+- no, gracias
+- no gracias
+- UH no
+- respira no
+- Tienes algo más
+- no esto no me funciona
+
+## intent:inform
+- comida [afgana](cocina)
+- ¿Qué de la comida [india](cocina)?
+- uh ¿qué hay del tipo de comida [turca](cocina)?
+- um [italiana](cocina)
+- Estoy buscando comida [toscana](cocina)
+- Me identifico con la comida [marroquí](cocina)
+- [mariscos](cocina)
+- comida [francesa](cocina)
+- sirven comida [británica](cocina)
+- sirven comida [jamaicana](cocina)
+- um qué hay de la comida [italiana](cocina)
+- sirve comida [francesa](cocina)
+- ¿qué tal comida [india](cocina)
+- ¿Puedo pedir comida [china](cocina)
+- [irlandesa](cocina)
+- comida [británica](cocina)
+- comida [española](cocina)
+- ¿Qué tal uno que sirve comida [portuguesa](cocina) y es barato?
+- [alemán](cocina)
+- comida [coreana](cocina)
+- Estoy buscando comida [rumana](cocina)
+- Quiero comida [francesa](cocina)
+- ¿Qué tal el tipo de comida [europea moderna] (cocina)?
+- debe servir comida [escandinava](cocina)
+- como [europeo](cocina)
+- ¿qué tal comida [europea](cocina)
+- sirven comida [tradicional](cocina)
+- comida de [indonesia](cocina)
+- [europeo moderno](cocina)
+- sirven comida [brasileña](cocina)
+- Me gustaría la comida [moderna europea](cocina)
+- buscando comida [libanesa](cocina)
+- [portugués](cocina)
+- [europeo](cocina)
+- Quiero comida [polaca](cocina)
+- Quiero encontrar comida [marroquí](cocina)
+- [afgano](cocina)
+- comida [escocesa](cocina)
+- ¿qué tal [vietnamita](cocina)
+- hola estoy buscando comida [mexicana](cocina)
+- ¿qué tal la cocina [india](cocina)?
+- comida [polinesia](cocina)
+- cocina [mexicana](cocina)
+- en su lugar, podría ser para [cuatro] (nro_personas:4) personas
+- cualquier comida [japonesa](cocina)
+- ¿Qué hay de la comida [tailandesa](cocina)?
+- ¿qué tal [oriental](cocina)
+- Estoy buscando comida [japonesa](cocina)
+- Estoy buscando comida [belga](cocina)
+- Estoy buscando comida [turca](cocina)
+- hay comida [británica](cocina)
+- Estoy buscando que sirvan comida [japonesa](cocina)
+- Estoy buscando comida de [malasia](cocina)
+- Quiero encontrar comida del [mundo](cocina)
+- Sirven [pan japones] (cocina:japonesa)
+- buscando comida [afgana](cocina)
+- que sirve comida [portuguesa](cocina)
+- [comida asiática oriental](cocina: asiática)
+- comida [rusa](cocina)
+- [asiático oriental](cocina: asiática)
+- Sirviendo comida [vasca](cocina)
+- ¿qué tal [italiana](cocina)
+- buscando comida [española](cocina) en el centro de la ciudad
+- Quiero comida [vegetariana](cocina)
+- Estoy buscando comida [sueca](cocina)
+- um ¿qué tal comida [china](cocina)
+- ¿qué tal comida [italiana](cocina)
+- ¿qué tal [coreano](cocina)
+- [escandinavo](cocina)
+- comida [vegetariana](cocina)
+- ¿Qué pasa con [italiana](cocina)
+- ¿qué tal [comida portuguesa](cocina)
+- sirviendo comida[francesa]
+- comida [toscana](cocina)
+- Estoy buscando comida [creativa](cocina)
+- Estoy buscando comida [inusual](cocina)
+- comida [danesa](cocina)
+- ¿Qué tal comida [española](cocina)?
+- Estoy buscando comida [vietnamita](cocina)
+- un restaurante de comida [rumana](cocina)
+- Estoy buscando comida [libanesa](cocina)
+- comida [italiana](cocina)
+- un restaurante con comida [afgana](cocina)
+- Estoy buscando comida [tradicional](cocina)
+- uh quiero comida [cantonesa](cocina)
+- Estoy buscando [tailandés](cocina)
+- Quiero sentarme [afuera](asiento)
+- Quiero sentarme [dentro](asiento)
+- Quiero sentarme [al aire libre](asiento)
+- Quiero sentarme [interior](asiento)
+- vamos [adentro](asiento)
+- [adentro](asiento)
+- [al aire libre](asiento)
+- Prefiero sentarme [en el interior](asiento)
+- Me gustaría sentarme [adentro](asiento) por favor
+- Prefiero sentarme [afuera](asiento)
+- Mi feedback es [bueno](feedback)
+- mi opinión es [grande](feedback)
+- fue [terrible](feedback)
+- Lo considero [éxito](feedback)
+- es [horrible](feedback)
+- para [diez](nro_personas:10) personas
+- [2](nro_personas) personas
+- para [tres](nro_personas:3) personas
+- solo [una](nro_personas:1) persona
+- mesa para [siete](nro_personas:7) personas
+- 2[nro_personas] por favor
+- [nueve](nro_personas:9) personas
+
+## intent:thankyou
+- um gracias adios
+- Está bien, bueno, chau, gracias.
+- ok gracias adios
+- Y eso es todo gracias.
+- gracias y chau
+- perdón por mis errores gracias chau
+- gracias chau
+- bien gracias chau
+- uh gracias chau
+- gracias chau
+- gracias
+- OK gracias
+- Gracias, chau
+- ah gracias chau
+- Gracias
+- uh bien gracias chau
+
+## intent:chitchat
+- ¿Me podes decir quien es tu jefe?
+- Me gustaria conocer a tu jefe
+- Quiero conocer la empresa que te diseñó.
+- Quiero conocer la empresa que te generó.
+- Quiero conocer la empresa que te inventó.
+- Quiero saber quién te inventó
+- ¿Puedo preguntar quién te inventó?
+- por favor dime la compañía que te creó
+- por favor dime quien te creó
+- Cuéntame más sobre tus creadores.
+- Cuéntame más sobre tus fundadores.
+- Estás bien
+- estas teniendo un buen dia
+- ¿Estas bien?
+- estás bien
+- ¿Te sientes bien?
+- cómo van las cosas
+- ¿cómo van las cosas contigo?
+- ¿Cómo están las cosas?
+- cómo estás
+- como estas
+- Cómo estás esta mañana
+- como te sientes
+- cómo estás hoy
+- ¿Cómo estás?
+- ¿Cómo está el clima hoy?
+- ¿Como está el clima?
+- ¿Qué tiempo hace en tu casa?
+- ¿Tienes buen tiempo?
+- ¿Esta lloviendo?
+- ¿Cómo es ahí afuera?
+- ¿Hace calor o frío?
+- Hermoso día, ¿no es así?
+- ¿Cuál es el pronóstico del tiempo?
+- ¿Esta bastante ventoso afuera?
+
+## intent:stop
+- ok entonces no puedes ayudarme
+- Eso es una mierda, no estás ayudando.
+- no puedes ayudarme
+- No puedes ayudarme con lo que necesito.
+- supongo que no puedes ayudarme entonces
+- ok supongo que no puedes ayudarme
+- Eso no es lo que quiero
+- ok, pero eso no me ayuda
+- esto no lleva a nada
+- Esta conversación no es realmente útil.
+- No puedes ayudarme con lo que quiero.
+- Creo que no puedes ayudarme
+- hm no creo que puedas hacer lo que quiero
+- detener
+- ¿Tienes algo?
+- ¿Y sos un bot inteligente? pff
+- ¿y eso que es?
+- ¿nada más?
+- terminemos por favor
+
+## intent:out_of_scope
+- Que es esto!
+- Esto no sirve
+- Que porqueria
+- no sirve para nada
+- mugree
+- porqueria
+- hdp
+- la pmqp
+- la que te pario!
+- sos varon?
+- sos mujer?
+- river va a salir campeon?
+- boca va a salir campeon?
+- No servis para nada!
+- moritee
+- Porque no te moris?
+- Me agotas!!!!
+- Apagate por favor!
+- Como te desconecto?

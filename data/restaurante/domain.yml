@@ -1,0 +1,91 @@
+intents:
+  - request_restaurant:
+      use_entities: false
+  - chitchat:
+      use_entities: false
+  - inform
+  - affirm
+  - deny
+  - stop
+  - thankyou
+  - greet
+  - out_of_scope
+
+entities:
+  - cocina
+  - nro_personas
+  - number
+  - feedback
+  - asiento
+
+slots:
+  cocina:
+    type: unfeaturized
+    auto_fill: false
+  nro_personas:
+    type: unfeaturized
+    auto_fill: false
+  patio_comidas:
+    type: unfeaturized
+    auto_fill: false
+  preferencias:
+    type: unfeaturized
+    auto_fill: false
+  feedback:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+
+templates:
+  utter_ask_cocina:
+    - text: "¿Qué cocina?"
+  utter_ask_nro_personas:
+    - text: "¿Cuantas personas?"
+  utter_ask_patio_comidas:
+    - text: "¿Prefiere comer el patio al aire libre?"
+  utter_ask_preferencias:
+    - text: "Alguna preferencia adicional?"
+  utter_ask_feedback:
+    - text: "por favor envíe sus comentarios sobre su experiencia hasta ahora"
+  utter_submit:
+    - text: "¡Todo listo!"
+  utter_slots_values:
+    - text: "Buscando restaurantes usando los siguientes parámetros:\n
+             - cocina: {cocina}\n
+             - nro_personas: {nro_personas}\n
+             - patio_comidas: {patio_comidas}\n
+             - preferencias: {preferencias}\n
+             - feedback: {feedback}"
+  utter_noworries:
+    - text: "de nada :)"
+  utter_chitchat:
+    - text: "chitchat"
+  utter_ask_continue:
+    - text: "¿Quieres continuar?"
+  utter_wrong_cocina:
+    - text: "el tipo de cocina no está en la base de datos, por favor intente de nuevo"
+  utter_wrong_nro_personas:
+    - text: "el número de personas debe ser un número entero positivo, inténtalo de nuevo"
+  utter_wrong_patio_comidas:
+    - text: "no se pudo convertir la entrada al valor booleano, inténtalo de nuevo"
+  utter_default:
+    - text: "lo siento, no te entendí, por favor intenta ingresar algo más"
+  utter_greet:
+    - text: "¡Hola! Soy asistente de búsqueda de restaurantes! ¿Cómo puedo ayudar?"
+  utter_out_of_scope:
+    - text: "Lo siento, no puedo contestar eso..."
+    - text: "Lo siento..., no estoy preparado para contestar eso"
+    - text: "No puedo contestar eso"
+
+actions:
+  - utter_slots_values
+  - utter_noworries
+  - utter_chitchat
+  - utter_out_of_scope
+  - utter_ask_continue
+  - utter_greet
+
+forms:
+  - restaurant_form
+
