@@ -17,3 +17,5 @@ make run-actions
 ```
 make bot=restaurante port=5005 run
 ```
+### Interfaz Web
+Luego de levantados los dos servidores podemos ir a la carpeta */ui/index.html* y simplemente hacerle doble click.
